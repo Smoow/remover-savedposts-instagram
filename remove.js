@@ -1,36 +1,8 @@
-let salvos = document.getElementsByClassName("_9AhH0");
-console.log(salvos);
-
-for (let i = 0; i < salvos.length; i++){
-
-    let remover = document.getElementsByClassName("wpO6b ");
-    let confirmaRemover = document.getElementsByClassName("aOOlW  bIiDR");
-    salvos[i].click();
-    remover[4].click();
-    remover[30].click();
-
-}
-
-
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
-
-while (j < 3) {
-
-    salvos[j].click();
-    sleep(2000);
-    remover[5].click();
-    sleep(2000);
-    remover[remover.length - 1].click();
-    sleep(2000);
-
-}
-
-let j = 0;
-let timer = 0;
-let salvos = document.getElementsByClassName("_9AhH0");
-let remover = document.getElementsByClassName("wpO6b ");
+// Variaveis auxiliares
+let j = 0;  // Counter
+let timer = 0;  // Tempo
+let salvos = document.getElementsByClassName("_9AhH0");     // Encontrar os salvos
+let remover = document.getElementsByClassName("wpO6b ");    // Encontrar botoes de remover dos favs e fechar
 
 function Remover() {
     setTimeout(() => {  salvos[j].click(); }, 200);
@@ -38,76 +10,7 @@ function Remover() {
     setTimeout(() => {  remover[remover.length - 1].click(); }, 900);
     setTimeout(() => {  j++; }, 800);
 }
- 
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
-setTimeout(() => {  Remover(); }, timer);
-timer += 1500;
+
+// Copiar e colar quantos favoritos tiver
 setTimeout(() => {  Remover(); }, timer);
 timer += 1500;
